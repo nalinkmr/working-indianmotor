@@ -59,6 +59,29 @@
 								<!-- end of container -->
 							</nav> <!-- end of nav bar -->
 
+							<!-- Modal CONTACT US POP-UP -->
+						    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+						        <div class="modal-dialog modal-sm modal-left">
+						            <div class="modal-content">
+						                <div class="modal-header">
+						                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+						                    </button>
+						                     <h4 class="modal-title" id="modal1Label">Example</h4>
+
+						                </div>
+						                <div class="modal-body">Some Demo For Example </div>
+						                <div class="modal-footer">
+						                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+
+						    <!-- modal contact us pop up -->
+								<button id="test" style="position: fixed;">contact us</button>
+							<!-- end of modal  pop-up -->
+
 					  	<script type="text/ng-template" id="pages/home.html">
 					      <section>
 					      	 <div class="col-md-12">
@@ -305,6 +328,7 @@
 										</div>
 									</div>
 								</div>
+								
 							</footer>
 							<!-- end of footer -->
 					    </script>
@@ -459,6 +483,15 @@
 										});
 									});
 								})
+							</script>
+							<script>
+								$(document).ready(function(){
+    $( "#test" ).hover(function() {
+           $('.modal').modal({
+        show: true
+    });
+  });  
+});
 							</script>
 					  </body>
 					</html>
