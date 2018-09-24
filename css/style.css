@@ -629,8 +629,8 @@
     text-decoration: none;
     font-size: 25px;
     color: #818181;
-    display: block;
-    transition: 0.3s;
+    display: hidden;
+    transition: 0s;
 }
 
 .sidenav a:hover {
@@ -655,10 +655,10 @@
   vertical-align:top;
   width:140px;
   transform:rotate(7deg);
-  -ms-transform:rotate(90deg); /* IE 9 */
-  -moz-transform:rotate(90deg); /* Firefox */
-  -webkit-transform:rotate(90deg); /* Safari and Chrome */
-  -o-transform:rotate(90deg); /* Opera */
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
       margin-top: 265px;
     margin-left: -45px;
 }
