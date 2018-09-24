@@ -548,12 +548,14 @@
 							</script>
 							<script>
 function openNav() {
+	document.getElementById("mySidenav").style.display = "block";
     document.getElementById("mySidenav").style.width = "335px";
     document.getElementById("mySidenav").style.marginTop = "137px";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.display = "none";
 }
 							</script>
 							<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
