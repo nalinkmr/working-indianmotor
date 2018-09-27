@@ -13,9 +13,9 @@ app.config(function($routeProvider) {
     controller  : 'OurConceptController'
   })
 
-  .when('/aboutus', {
-    templateUrl : 'pages/aboutus.html',
-    controller  : 'AboutUsController'
+  .when('/contactus', {
+    templateUrl : 'pages/contactus.html',
+    controller  : 'ContactUsController'
   })
 
   .otherwise({redirectTo: '/'});
@@ -60,7 +60,9 @@ app.controller('OurConceptController', function($scope) {
   $scope.message = 'Hello from BlogController';
 });
 
-app.controller('AboutUsController', function($scope) {
-  $scope.message = 'Hello from AboutController';
+app.controller('ContactUsController', function($scope) {
+  $scope.message = 'Hello from contactusController';
 });
+
+
 
