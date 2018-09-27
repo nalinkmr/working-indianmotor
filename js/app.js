@@ -63,6 +63,3 @@ app.controller('OurConceptController', function($scope) {
 app.controller('ContactUsController', function($scope) {
   $scope.message = 'Hello from contactusController';
 });
-
-
-
