@@ -42,7 +42,7 @@
 												<li class="nav-item"><a href="#" class="nav-link">Our Expeditions</a></li>
 												<li class="nav-item"><a href="#" class="nav-link">Forum</a></li>
 												<li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-												<li class="nav-item"><a href="#" class="nav-link contactus">Contact Me</a></li>
+												<li class="nav-item"><a href="#/contactus" class="nav-link contactus">Contact Me</a></li>
 											</ul>
 										</div>
 									</div>
@@ -371,6 +371,7 @@
 							</footer>
 							<!-- end of footer -->
 					    </script>
+
 					    <script type="text/ng-template" id="pages/ourconcept.html">
 					    	
 					      <div class="container aboutcompany">
@@ -471,11 +472,60 @@
 							</div>
 							</footer>
 					    </script>
-					<!-- end of contac us  -->
+					<!-- end of about us  -->
 
-					    <script type="text/ng-template" id="pages/aboutus.html">
-					      <h1>About</h1>
-					      <h3>{{message}}</h3>
+					    <script type="text/ng-template" id="pages/contactus.html">
+					     	<div class="container conUs">
+								<div class="map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d112061.09262729759!2d77.208022!3d28.632485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x644e33bc3def0667!2sIndior+Tours+Pvt+Ltd.!5e0!3m2!1sen!2sus!4v1527779731123" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
+								<div class="contact-form">
+									<h1 class="title">Contact Us</h1>
+									<h2 class="subtitle">We are here assist you.</h2>
+									<form action="">
+										<input type="text" name="name" placeholder="Your Name" />
+										<input type="email" name="e-mail" placeholder="Your E-mail Adress" />
+										<input type="tel" name="phone" placeholder="Your Phone Number"/>
+										<textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
+										<button class="btn-send">Get a Call Back</button>
+									</form>
+								</div>
+							</div>
+							<!-- footer -->
+							<footer>
+								<div class="container-fluid padding">
+								<div class="row text-center">
+									<div class="col-md-4">
+										<img src="images/LogoContact.png">
+										<br><br>
+										<h3 class="motorbike-footer-title">INDIA MOTORBIKE TOUR</h3>
+										<p style="text-align: -webkit-center;">Our primary motive is to provide best bike tour packages which live up to the expectations of our clients.</p>
+									</div>
+									<div class="col-md-4">
+										<hr class="light">
+										<h3>LOCATIONS</h3>
+										<hr class="light">
+										<p>Manali Office</p>
+										<p>Village Siyal Bagh,</p>
+										<p>Distt.Kullu Manali,175131</p>
+										<p>Himachal Pradesh.</p>
+									</div>
+									<div class="col-md-4">
+										<hr class="light">
+										<h3>QUICK CONTACT</h3>
+										<hr class="light">
+										<p>+91 – 7807152124</p>
+										<p>+91 – 9560022171</p>	
+										<p>+91 – 8626918644</p>
+										<p>Himachal Pradesh.</p>
+									</div>
+									<div class="col-12">
+										<hr class="light">
+										<h5>&copy;2018 INDIA Motorbike Tours . All Rights Reserved | Designed by @nalinkmr.</h5>
+									</div>
+								</div>
+							</div>
+							</footer>
 					    </script>
 					    <div ng-view></div>
 
